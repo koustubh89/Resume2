@@ -19,11 +19,11 @@ SETTINGS
 BODY
 *******************************************/
 body{
-  font-family: 'Open Sans', Arial, Tahoma;
-  font-weight: 400;
-  font-size: 1em;
-  color: #363636;
-  background: #ededed;
+  font-family: 'Open Sans', Arial, Tahoma !important;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+  color: #363636 !important;
+  background: #ededed !important;
 }
 /*******************************************
 CONTAINER
