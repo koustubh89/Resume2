@@ -41,7 +41,7 @@ PHOTO (AVATAR)
 }
 #photo{
   width: 160px;
-  height: 160px;
+  height: 180px;
   border-radius: 50%;
   overflow: hidden;
   padding: 5px;
@@ -49,8 +49,8 @@ PHOTO (AVATAR)
   display: inline-block;
 }
 #photo img{
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
 }
 #text-header h1{
@@ -320,6 +320,10 @@ HOBBIES
   background: #A75265;
   position: relative;
   font-size: 1.2em;
+}
+.hobby a{
+  text-decoration: none;
+  color: white;
 }
 .hobby:before{
   content: "\f004";
